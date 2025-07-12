@@ -6,7 +6,7 @@
 }
 .container{
     width : 100%;
-    height: 94vh;
+    height: 92vh;
     display: flex;
     background-color: #3D74B6;
     align-items: center;    
@@ -28,10 +28,10 @@
     border : 3px solid black;
     background-color: #DC3C22;
     padding: 5px;
-    margin-bottom : 2px;
+    margin : 2px 0px;
     font-size: 18px;
     border-radius: 10px;
-    width : 10%;
+    width : 20%;
     display: flex;
     align-items: center;
     justify-content: center;
