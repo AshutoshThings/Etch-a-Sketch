@@ -21,13 +21,14 @@ function createElements(width, height) {
 
         d.addEventListener('mouseenter', () => {
             d.style.backgroundColor = `rgb(${Math.random()*255},${Math.random()*255},${Math.random()*255})`;
+            d.style.opacity = 0.9;
         });
         d.addEventListener('mouseleave', () => {
             setTimeout(() => {
                 d.style.backgroundColor = `rgb(${255},${255},${255})`;
+                d.style.opacity = 1;
             }, 5000);
         });
-
         container.appendChild(d);
     }
 }
